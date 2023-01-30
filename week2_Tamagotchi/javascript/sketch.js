@@ -115,7 +115,7 @@ function draw() {
   }
 
   if(feelLike.length <= feelLikeLimit-1){
-    buttonTouch.html("TOACH");
+    buttonTouch.html("TOUCH");
     buttonTouch.removeClass("inactive");
   }
 
