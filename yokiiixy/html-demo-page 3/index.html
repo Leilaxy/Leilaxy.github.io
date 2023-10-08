@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <!-- meta viewport tag needed to make site responsive on mobile devices https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag -->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <title>WCC Portfolio - Demo Page</title>
+
+        <!-- including for some global styling -->
+        <link rel="stylesheet" href="../css/style.css">
+        <!-- if I had some styling I wanted to include on one special page -->
+        <link rel="stylesheet" href="css/demo-style.css">
+
+    </head>
+    <body>
+        <!-- if you have sub-pages think about adding a simple back button -->
+        <nav>
+            <a href="../">Back to Home</a>
+        </nav>
+        <header>
+            <h1>Memory</h1>
+            <p>Time is not eternal, but love and memories are.</p> 
+            <p>我在这个项目中的目的是：探索人类活动产生的城市和数字生成世界之间的联系。我认为，城市建筑的生成的规律性和不规则性与数字生成模式相似。在这个项目中我首先抽象出了建筑形式，然后使用鼠标在p5js软件中生成路径，跟随随机路径生成建筑。这些城市街道在现实中并不存在，但人们会在大量数据生成中看到熟悉的街道。每个人都能看到自己走过的路。我想通过这样的数据生成来表达，城市承载着我们的记忆，时间流逝，但记忆是我们人类的重要组成部分。因为有了记忆，我们就有了爱，时间不是永恒的，但爱和记忆是。</p>
+        </header>
+
+        <main>
+            <section>
+                <h3>Video</h3>
+                <div class="responsive-video">
+                    <iframe title="vimeo-player" src="//player.bilibili.com/player.html?aid=534477102&bvid=BV1yu411M7PD&cid=1292335902&p=1" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <p>Video from this <a href="https://www.bilibili.com/video/BV1yu411M7PD/?spm_id_from=333.999.0.0" target="_blank">Memory</a></p>
+
+            </section>
+            <section>
+                <h3>Images</h3>
+                <img id="striped-image" src="tu1.png"/>
+                <img id="striped-image" src="tu2.png"/>
+                <p>首先我抽象出是建筑为简单线条。然后由于街道的形成与道路有关，所以我将用户鼠标的路径作为道路。p5js获得鼠标经过的点集，将这些点集连接以形成道路，并在点集中点位置生成树，每个树都使用递归方法生成。建筑可以通过更改生成的建筑的近似高度和宽度来更改其形状。 </p>
+                <p>在生成建筑时，保存每栋建筑屋顶的位置，在此位置上更改x/y数值以随机更新一个新位置。然后在新位置上生成随机的不同图案，以实现霓虹圆圈或者马赛克的记忆模糊效果。通过不同的效果和随机生成的街道，视频从记忆中城市的模糊效果变成了现代城市的清晰画面。这是唤起人们对这座城市记忆的一种方式。无论时间过去了多久，当我们看到熟悉的街道和建筑时，我们都会想起过去。 </p>
+            </section>
+
+        </main>
+
+        <footer>
+            <!-- normally information like contact details etc  -->
+            <!-- read more about semantic HTML https://www.w3schools.com/html/html5_semantic_elements.asp -->
+            
+         </footer>
+    </body>
+</html>

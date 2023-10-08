@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <!-- meta viewport tag needed to make site responsive on mobile devices https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag -->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <title>WCC Portfolio - Demo Page</title>
+
+        <!-- including for some global styling -->
+        <link rel="stylesheet" href="../css/style.css">
+        <!-- if I had some styling I wanted to include on one special page -->
+        <link rel="stylesheet" href="css/demo-style.css">
+
+    </head>
+    <body>
+        <!-- if you have sub-pages think about adding a simple back button -->
+        <nav>
+            <a href="../">Back to Home</a>
+        </nav>
+        <header>
+            <h1>0&1</h1>
+            <p>A world constructed from 0 and 1."</p> 
+            <p>数字世界对我们生活的影响是广泛而深远的。它彻底改变了我们交流、工作、学习和娱乐的方式。数字世界的基础在于由0和1组成的代码。我使用了unity引擎人脸跟踪技术，该技术对模型进行编码，跟踪人脸并进行覆盖。我想用直观的方式来表达数字世界对我们生活的影响。模型由图案0和1组成，代码直观地出现在我们真实世界的任何角落，以模拟在数字世界中人类已经逐渐模糊了自己。</p>
+        </header>
+
+        <main>
+            <section>
+                <h3>Video</h3>
+                <div class="responsive-video">
+                    <iframe title="vimeo-player" src="//player.bilibili.com/player.html?aid=364303842&bvid=BV1y94y1h76T&cid=1291396273&p=1" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <p>Video from this <a href="https://www.bilibili.com/video/BV1y94y1h76T/?spm_id_from=333.999.0.0&vd_source=7d680a050c0d70bc8b4209abd89eb064" target="_blank">0&1</a></p>
+
+            </section>
+            <section>
+                <h3>Images</h3>
+                <img id="striped-image" src="daima.png"/>
+                <img src="moxing.png" width="34%" height="34%">
+                <p>我使用了unity引擎人脸跟踪技术，该技术将对模型进行编码，以跟踪人脸并进行叠加。我建立了四到五个这样的模型，并使用多人脸跟踪代码允许他们随机跟踪人脸。该技术是一种用于多人脸跟踪的脚本，使用AR Foundation的AR Face Management来检测和跟踪场景中的人脸，并在每个检测到的人脸上放置随机选择的模型。</p>
+                <img id="striped-image" src="WechatIMG63.jpeg"/>
+                <p>我之所以选择广告牌模型和表情符号元素，是因为我认为我们生活中的数字化社交和数字化宣传在很大程度上已经取代了传统的社交和传统的宣传方法，尤其是在网络上广告已经无处不在，数字不仅涵盖了人们的外表，还涵盖了他们的情绪，许多人已经失去了他们的真实自我，总是在网络以“包装”出的自我形象与他人交流。表情符号的动画脚本用于控制其浮动，sin函数用于计算球的新坐标，实现球体在垂直方向上的周期性移动，shader用于控制对象的颜色和纹理以实现颜色梯度效果。</p>
+            </section>
+
+        </main>
+
+        <footer>
+            <!-- normally information like contact details etc  -->
+            <!-- read more about semantic HTML https://www.w3schools.com/html/html5_semantic_elements.asp -->
+            
+         </footer>
+    </body>
+</html>

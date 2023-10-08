@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <!-- meta viewport tag needed to make site responsive on mobile devices https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag -->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <title>WCC Portfolio - Demo Page</title>
+
+        <!-- including for some global styling -->
+        <link rel="stylesheet" href="../css/style.css">
+        <!-- if I had some styling I wanted to include on one special page -->
+        <link rel="stylesheet" href="css/demo-style.css">
+
+    </head>
+    <body>
+        <!-- if you have sub-pages think about adding a simple back button -->
+        <nav>
+            <a href="../">Back to Home</a>
+        </nav>
+        <header>
+            <h1>Light of Darkness</h1>
+            <p>A little light coming together has the power to break through the darkness.</p> 
+            <p>通过此互动装置表达在互联网上表达反对意见时的对立现象。我想通过装置交互去探索对立的平衡</p>
+        </header>
+
+        <main>
+            <section>
+                <h3>Vimeo Video</h3>
+                <div class="responsive-video">
+                    <iframe title="vimeo-player" src="//player.bilibili.com/player.html?aid=789416524&bvid=BV15C4y1d7uB&cid=1292313263&p=1" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <p>Video from this <a href="https://www.bilibili.com/video/BV15C4y1d7uB/?spm_id_from=333.999.0.0" target="_blank">Light of Darkness</a></p>
+
+            </section>
+            <section>
+                <h3>Images</h3>
+                <img id="striped-image" src="DSCF4108.jpg"/>
+                <img id="striped-image" src="DSCF4125.jpg"/>
+                <p>我将心理对抗与计算机世界结合在一起。其中一个内部结构是神经元结构。通过这个装置，我想探索对立的边界在哪里，以及对立中必然会产生的对立效果在哪里。这一切的平衡是什么。对于这个模型，我使用了犀牛模型并3d打印了神经元结构，但由于一些结构不容易打打印，我使用光纤和白纸手工制作。 </p>
+                <img id="striped-image" src="tu.png"/>
+                <p>当观众想表达他们的反对意见时，我用声音传感器作为输入。灯带将变亮以表示注意力的增加。观众的声音越大，光带就越亮，注意力也随之增加。背面选择使用投影仪将p5js画面投影到背面，p5js画面也是和声音数据连接。当一个人的反对达到一定程度时，与其反对词相反的词会出现在后面。例如，如果反对词本身就是战争，那么和平这个词就会出现。当用户说话声音更大时，他们面前的彩色灯光会变得更亮，从而阻止用户看到投影的单词。如果人们渴望看到“和平”这个词，他们就需要大声反对战争，当面对反对现象时，他们是放弃发声和寻求其他途径的机会，还是继续反对和突破对立。这样，以探讨反对的作用与反作用</p>
+            
+            </section>
+
+        </main>
+
+        <footer>
+            <!-- normally information like contact details etc  -->
+            <!-- read more about semantic HTML https://www.w3schools.com/html/html5_semantic_elements.asp -->
+            
+         </footer>
+    </body>
+</html>
